@@ -46,7 +46,7 @@ class htmlPanel(wx.Panel):
         url = urllib.parse.quote_plus(urlName) 
         if(urlName != ''):
             query = "https://api.scraperbox.com/scrape"
-            query += "?token=%s" % "00BE6AC177DCD53D371328EEA9E093B8"
+            query += "?token=%s" % "your key"
             query += "&url=%s" % url
 
             # Call the API.
