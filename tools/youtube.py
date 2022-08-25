@@ -33,7 +33,7 @@ class youtubeDownload(wx.Panel):
 
         headers = {
             'x-rapidapi-host': "youtube-downloader9.p.rapidapi.com",
-            'x-rapidapi-key': "613c493a32msh05aaa9c7f6432a0p19115bjsn21bda0e2f5ed"
+            'x-rapidapi-key': "your key"
             }
 
         response = requests.request("GET", url, headers=headers)
